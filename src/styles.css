@@ -6,9 +6,8 @@ body {
   background-color: black;
 }
 
-
 button {
-  color: rgb(154, 31, 255) 0%,
+  color: rgb(154, 31, 255);
   font-weight: 12px;
   border-radius: 15px;
   max-width: 100px;
@@ -20,15 +19,19 @@ button {
   position: relative;
   top: -10px;
   right: -0px;
+}
 
+.button-link {
+  text-align: center;
+  color: blueviolet;
 }
 button:hover {
-transform-style: pointer;
-background-color: aliceblue;
-color: rgb(215, 172, 255);
-transform: all 220ms ease-in-out;
-font-family: "Press Start 2P", cursive;
-font-size: 12px;
+  transform-style: pointer;
+  background-color: aliceblue;
+  color: rgb(215, 172, 255);
+  transform: all 220ms ease-in-out;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
 }
 
 .geolocation-current {
@@ -36,9 +39,7 @@ font-size: 12px;
   font-weight: smaller;
   position: relative;
   bottom: -50px;
-  
 }
-
 
 input[type="text"] {
   border-radius: 300px;
