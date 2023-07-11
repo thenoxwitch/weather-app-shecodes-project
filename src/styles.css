@@ -1,0 +1,196 @@
+body {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+  font-family: monospace;
+  background-color: black;
+}
+
+
+button {
+  color: rgb(154, 31, 255) 0%,
+  font-weight: 12px;
+  border-radius: 15px;
+  max-width: 100px;
+  background: white;
+
+  transform: all 220ms ease-in-out;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(28, 4, 32);
+  position: relative;
+  top: -10px;
+  right: -0px;
+
+}
+button:hover {
+transform-style: pointer;
+background-color: aliceblue;
+color: rgb(215, 172, 255);
+transform: all 220ms ease-in-out;
+font-family: "Press Start 2P", cursive;
+font-size: 12px;
+}
+
+.geolocation-current {
+  text-align: center;
+  font-weight: smaller;
+  position: relative;
+  bottom: -50px;
+  
+}
+
+
+input[type="text"] {
+  border-radius: 300px;
+  border: 1px solid blueviolet;
+  font-weight: bold;
+  max-width: 200px;
+  background-image: radial-gradient(592px at 48.2% 50%, rgb(230, 200, 255)) 0%,
+    rgb(219, 204, 231) 74.6%;
+  box-shadow: 5px 5px 10px rgb(147, 102, 156);
+}
+
+input[type="submit"] {
+  color: white;
+  border-radius: 300px;
+  max-width: 200px;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgb(154, 31, 255) 0%,
+    rgb(0, 0, 0) 74.6%
+  );
+  transform: all 220ms ease-in-out;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(28, 4, 32);
+}
+
+input[type="submit"]:hover {
+  transform-style: pointer;
+  background-color: aliceblue;
+  color: rgb(215, 172, 255);
+  transform: all 220ms ease-in-out;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: aliceblue;
+  text-shadow: 10px 10px 20px rgb(133, 107, 138);
+  font-family: "Press Start 2P", cursive;
+  cursor: default;
+}
+
+h1:hover {
+  color: rgb(153, 45, 255);
+  transform: all 225ms ease-in-out;
+
+  cursor: default;
+  text-shadow: 10px 10px 20px rgb(255, 255, 255);
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700px;
+  color: rgb(216, 216, 216);
+  margin: auto;
+  display: block;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgb(154, 31, 255) 0%,
+    rgb(162, 101, 211) 74.6%
+  );
+  box-shadow: 5px 5px 10px rgb(205, 168, 212);
+  width: 20%;
+  border-radius: 12px;
+  cursor: default;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  position: relative;
+  top: -230px;
+  cursor: default;
+  text-shadow: 5px 5px 5px rgb(190, 132, 224);
+  font-family: "Press Start 2P", cursive;
+}
+
+h3:hover {
+  color: rgb(153, 45, 255);
+  transform: all 225ms ease-in-out;
+  scale: calc(1.5);
+  cursor: default;
+  text-shadow: 10px 10px 20px rgb(255, 255, 255);
+}
+p {
+  font-size: large;
+  color: darkorchid;
+  font-weight: 800;
+}
+
+em {
+  cursor: default;
+}
+
+strong:hover {
+  color: rgb(209, 178, 238);
+  transform: all 220ms ease-in-out;
+  scale: calc(1.5);
+  cursor: default;
+}
+
+.container-sm {
+  border: 1px solid rgb(106, 55, 148);
+  box-shadow: 10px 10px 20px rgb(133, 107, 138);
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 20px;
+
+  text-align: center;
+  max-width: 50%;
+  min-width: fit-content;
+  min-height: fit-content;
+  margin: auto;
+
+  background-color: blueviolet;
+  background: linear-gradient(70deg, rgb(154, 31, 255), rgb(219, 174, 255));
+}
+.main-icon {
+  font-size: 50px;
+  color: rgb(237, 222, 248);
+  position: relative;
+  top: -250px;
+  text-shadow: 10px 10px 20px rgb(133, 107, 138);
+  background: none;
+  border-radius: 15px;
+}
+
+.container .row {
+  position: relative;
+  left: -320px;
+  top: -50px;
+  bottom: 50px;
+  cursor: default;
+}
+
+.icons-2 {
+  font-size: 30px;
+  text-shadow: 10px 10px 20px rgb(236, 224, 238);
+}
+
+.icons-2:hover {
+  color: rgb(55, 25, 83);
+  transform: all 220ms ease-in-out;
+  scale: calc(1.5);
+
+  cursor: default;
+}
+
+.weekdays {
+  padding-bottom: -200px;
+  cursor: default;
+}
