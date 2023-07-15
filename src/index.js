@@ -29,6 +29,7 @@ form.addEventListener("submit", search);
 //WEATHERAPI
 
 function displayWeather(response) {
+  console.log(response.data);
   let h3 = document.querySelector("h3");
   let temperature = Math.round(response.data.main.temp);
   h3.innerHTML = `${temperature}°`;
@@ -38,11 +39,12 @@ function displayWeather(response) {
   description.innerHTML = response.data.weather[0].description;
   let conditions = document.querySelector(".conditions");
   let humidity = response.data.main.humidity;
-  let iconElement = document.querySelector("icon");
+  let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
     "src",
-    `https://openweathermap.org/img/wn/04d@2x.png`
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
+
   let speed = response.data.wind.speed;
   conditions.innerHTML = ` <strong>Humidity:</strong><br />${humidity}%<br /> 
   <strong>Wind Speed:</strong><br />${speed}km/hr`;
