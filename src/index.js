@@ -32,7 +32,7 @@ function displayWeather(response) {
   console.log(response.data);
   let h3 = document.querySelector("h3");
   let temperature = Math.round(response.data.main.temp);
-  h3.innerHTML = `${temperature}°`;
+  h3.innerHTML = `${temperature}° `;
   let h1 = document.querySelector("h1");
   h1.innerHTML = response.data.name;
   let description = document.querySelector(".description");
