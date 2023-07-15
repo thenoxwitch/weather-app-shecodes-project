@@ -8,7 +8,7 @@ let days = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday"
+  "Saturday",
 ];
 let day = days[now.getDay()];
 let hours = now.getHours();
@@ -38,6 +38,11 @@ function displayWeather(response) {
   description.innerHTML = response.data.weather[0].description;
   let conditions = document.querySelector(".conditions");
   let humidity = response.data.main.humidity;
+  let iconElement = document.querySelector("icon");
+  iconElement.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/04d@2x.png`
+  );
   let speed = response.data.wind.speed;
   conditions.innerHTML = ` <strong>Humidity:</strong><br />${humidity}%<br /> 
   <strong>Wind Speed:</strong><br />${speed}km/hr`;
