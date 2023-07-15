@@ -114,7 +114,10 @@ h3 {
   font-size: 40px;
   font-weight: bolder;
   position: relative;
-  top: -230px;
+  top: -250px;
+  left: 10px;
+  right: 50px;
+  bottom: 50px;
   cursor: default;
   text-shadow: 5px 5px 5px rgb(190, 132, 224);
   font-family: "Press Start 2P", cursive;
@@ -164,7 +167,7 @@ strong:hover {
   font-size: 50px;
   color: rgb(237, 222, 248);
   position: relative;
-  top: -250px;
+  top: -260px;
   text-shadow: 10px 10px 20px rgb(133, 107, 138);
   background: none;
   border-radius: 15px;
@@ -192,7 +195,13 @@ strong:hover {
 }
 
 .weekdays {
-  padding-bottom: -200px;
+  position: relative;
+  bottom: 50px;
+  left: 5px;
+  right: 50px;
+  top: 50px;
+  margin: auto;
+  display: block;
   cursor: default;
 }
 
