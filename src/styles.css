@@ -195,3 +195,7 @@ strong:hover {
   padding-bottom: -200px;
   cursor: default;
 }
+
+a {
+  color: darkmagenta;
+}
