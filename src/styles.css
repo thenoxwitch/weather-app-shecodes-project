@@ -123,13 +123,6 @@ h3 {
   font-family: "Press Start 2P", cursive;
 }
 
-h3:hover {
-  color: rgb(153, 45, 255);
-  transform: all 225ms ease-in-out;
-  scale: calc(1.5);
-  cursor: default;
-  text-shadow: 10px 10px 20px rgb(255, 255, 255);
-}
 p {
   font-size: large;
   color: darkorchid;
@@ -207,4 +200,15 @@ strong:hover {
 
 a {
   color: plum;
+}
+a:hover {
+  color: rgb(153, 45, 255);
+  transform: all 225ms ease-in-out;
+  scale: calc(1.5);
+  cursor: default;
+  text-shadow: 10px 10px 20px rgb(255, 255, 255);
+}
+
+.units {
+  font-size: 30px;
 }
