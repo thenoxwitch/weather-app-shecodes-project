@@ -1,7 +1,7 @@
 //geolocation
 function showPosition(position) {
   let p = document.querySelector(".geolocation-current");
-  p.innerHTML = `Your Latitude is ${position.coords.latitude} and your longitude is ${position.coords.longitude}`;
+  p.innerHTML = `Your Latitude is: ${position.coords.latitude} and your longitude is: ${position.coords.longitude}`;
 }
 
 function getCurrentPosition() {
@@ -27,7 +27,7 @@ let day = days[now.getDay()];
 let hours = now.getHours();
 let minutes = now.getMinutes();
 
-h2.innerHTML = `${day} ${hours}:${minutes}`;
+h2.innerHTML = `📅${day} <br />🕒${hours}:${minutes}`;
 
 //WEATHERAPI
 
@@ -78,7 +78,7 @@ function displayFahrenheitTemperature(event) {
   celsiusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");
   let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+  temperatureElement.innerHTML = `${fahrenheitTemperature}° `;
 }
 
 function displayCelsiusTemperature(event) {

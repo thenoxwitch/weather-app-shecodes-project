@@ -9,6 +9,7 @@ body {
 button {
   color: rgb(154, 31, 255);
   font-weight: 12px;
+  font-size: 16px;
   border-radius: 15px;
   max-width: 100px;
   background: white;
@@ -17,8 +18,8 @@ button {
   border: none;
   box-shadow: 5px 5px 10px rgb(28, 4, 32);
   position: relative;
-  top: -10px;
-  right: -0px;
+  top: 33px;
+  right: -195px;
 }
 
 .bottom-link {
@@ -39,6 +40,7 @@ button:hover {
   font-weight: smaller;
   position: relative;
   bottom: -50px;
+  top: -120px;
 }
 
 input[type="text"] {
@@ -108,6 +110,8 @@ h2 {
   width: 20%;
   border-radius: 12px;
   cursor: default;
+  position: relative;
+  top: -20px;
 }
 
 h3 {
@@ -164,6 +168,10 @@ strong:hover {
   background: none;
   border-radius: 15px;
 }
+.main-icon:hover {
+  transform: all 220ms ease-in-out;
+  scale: calc(1.5);
+}
 
 .container .row {
   position: relative;
@@ -204,10 +212,17 @@ a:hover {
   color: rgb(153, 45, 255);
   transform: all 225ms ease-in-out;
   scale: calc(1.5);
-  cursor: default;
+  cursor: pointer;
   text-shadow: 10px 10px 20px rgb(255, 255, 255);
 }
 
 .units {
   font-size: 20px;
+  position: relative;
+  top: -310px;
+  right: -75px;
+}
+
+#temperature {
+  text-shadow: 10px 10px 20px rgb(255, 255, 255);
 }
