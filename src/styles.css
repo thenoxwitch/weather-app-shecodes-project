@@ -211,7 +211,7 @@ a {
 a:hover {
   color: rgb(153, 45, 255);
   transform: all 225ms ease-in-out;
-  scale: calc(1.5);
+  scale: calc(1.1);
   cursor: pointer;
   text-shadow: 10px 10px 20px rgb(255, 255, 255);
 }
@@ -225,4 +225,37 @@ a:hover {
 
 #temperature {
   text-shadow: 10px 10px 20px rgb(255, 255, 255);
+}
+
+h4 {
+}
+
+.container-fluid {
+  font-size: 10px;
+
+  border-radius: 12px;
+  font-weight: bolder;
+
+  color: rgb(224, 224, 224);
+  text-shadow: 10px 10px 20px rgb(250, 226, 255);
+  font-family: "Press Start 2P", cursive;
+  cursor: default;
+}
+
+.navbar {
+  max-width: 45%;
+  border-radius: 30px;
+  margin: auto;
+  display: block;
+  background: black;
+}
+
+.navbar-brand {
+  color: blueviolet;
+  font-size: 20px;
+  text-shadow: 5px 5px 15px rgb(123, 52, 170);
+}
+
+.dropdown-item {
+  font-size: 10px;
 }
