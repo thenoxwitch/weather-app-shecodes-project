@@ -194,9 +194,6 @@ strong:hover {
   cursor: default;
 }
 
-.weather-forecast {
-}
-
 a {
   color: plum;
 }
@@ -250,4 +247,9 @@ h4 {
 
 .dropdown-item {
   font-size: 10px;
+}
+
+.weather-forecast {
+  position: relative;
+  bottom: -100px;
 }
