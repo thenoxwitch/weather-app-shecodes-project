@@ -1,4 +1,4 @@
-//geolocation
+//darktheme
 function changeTheme() {
   let body = document.querySelector("body");
   if (body.classList.contains("dark")) {
