@@ -29,6 +29,41 @@ let minutes = now.getMinutes();
 
 h2.innerHTML = `📅${day} <br />🕒${hours}:${minutes}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+  
+        
+          <div class="col-2">
+          <div class="weather-forecast-date">${day}</div>
+            
+          
+            <img
+              src="http://openweathermap.org/img/wn/50d@2x.png"
+              alt=""
+              width="45"
+            />
+            <div class ="weather-forecast-temperatures">
+            <strong class="weather-forecast-temperature-max">21°C</strong>
+            <br />
+            <em class="weather-forecast-temperature-min">9°C</em>
+            
+          
+        </div>
+      </div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+
+  forecastElement.innerHTML = forecastHTML;
+}
+
 //WEATHERAPI
 
 function displayWeather(response) {
@@ -101,3 +136,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 searchCity("London");
+displayForecast();
